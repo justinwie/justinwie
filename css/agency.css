@@ -115,9 +115,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: white;
   background-color: #75C57F;
-  border-color: ##75C57F;
+  opacity: 0.8;
+  border-color: #75C57F;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -750,20 +750,20 @@ ul.social-buttons li a:active {
   opacity: 0;
   display: none;
 }
-::-moz-selection {
+/*::-moz-selection {
   text-shadow: none;
-  background: #75C57F;
+  background: inherit;
 }
 ::selection {
   text-shadow: none;
-  background: #75C57F;
+  background: inherit;
 }
 img::selection {
   background: transparent;
 }
 img::-moz-selection {
   background: transparent;
-}
+}*/
 body {
   webkit-tap-highlight-color: #75C57F;
 }
