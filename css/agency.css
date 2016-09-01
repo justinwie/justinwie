@@ -106,9 +106,9 @@ fieldset[disabled] .btn-primary.active {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  border-radius: 30px;
-  font-size: 16px;
-  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 12px 30px;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -222,7 +222,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #222222;
-    padding: 10px 0;
+    padding: 5px 0;
     opacity: 0.9;
   }
   .navbar-custom.affix .navbar-brand {
@@ -262,8 +262,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
